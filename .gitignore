@@ -1,0 +1,4 @@
+# Local scratch for skill iteration loops (create-skill evals + workspace dirs).
+evals/
+workspace/
+*-workspace/
