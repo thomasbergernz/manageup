@@ -1,5 +1,8 @@
 # CLAUDE.md
 
+This file provides guidance to Claude Code (claude.ai/code) when working with
+code in this repository.
+
 ## What this repo is
 
 A prose/prompt repo, not a code repo. It holds the "Managing Up: Five Moves"
@@ -49,6 +52,9 @@ done
 
 # line budgets
 wc -l .agents/skills/managing-up/SKILL.md .agents/skills/managing-up/references/*.md
+
+# frontmatter description, must stay under the 1024-char skill limit (now 674)
+awk '/^description: /{print length($0) - 13}' .agents/skills/managing-up/SKILL.md
 ```
 
 The router smoke test (`/managing-up boss update` → Move 02,
