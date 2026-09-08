@@ -23,7 +23,7 @@ Same recipient logic as Move 02 — the recap goes to everyone in the meeting **
 
 Ask in one grouped message:
 
-- **Situation:** A (user ran the meeting or presented), B (user is the person from another team who owns what happens next), or C (client working session the user owns the follow-through on).
+- **Situation:** track-constrained. Boss track — ask A (user ran the meeting or presented) or B (user is the person from another team who owns what happens next). Client track — C (client working session the user owns the follow-through on). Never boss + C, never client + A.
 - **Meeting context:** transcript, notes, or talked-through. Paste or dictate.
 - **Shape:** which of the three recap shapes applies — decisions-made, big-picture discussion, or alignment. Pick one.
 
@@ -46,14 +46,14 @@ Run verbatim, with situation and shape substituted:
 
 ## Insight as guardrail
 
-If the user skips this move, somebody else writes the version of the meeting that gets remembered — and it won't be theirs. Apply this as a hard check: refuse to produce a recap without the +1 to +3 recipients named. If the user only names the people in the room, push back with: "Who else should see this?"
+If the user skips this move, somebody else writes the version of the meeting that gets remembered — and it won't be theirs. Deliver the recap, then name the recipient gap: if the user listed only people in the room, ask "Who else should see this?" and suggest 1–3 candidates from the track's recipient logic. Never withhold the draft over a missing recipient list.
 
 Format checks:
 
 1. One-sentence summary at the top (busy person on phone, 5 seconds).
 2. 3–5 bullets.
 3. Close with what's next + anything still open.
-4. Recipients list total 3–7 people.
+4. Recipients list totals 3–7 people once named.
 
 ## Chains into
 

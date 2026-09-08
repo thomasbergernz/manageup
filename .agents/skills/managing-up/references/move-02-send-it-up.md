@@ -15,7 +15,7 @@ Clients assume too. They see you on the calls. They do not see the work between 
 
 Ask in one grouped message:
 
-- **Version:** A (short warm email) or B (tight substantive email).
+- **Version:** derived from the track — boss defaults to A (short warm email), client to B (tight substantive email). State the default in one line; ask only if the user overrides.
 - **Recipient:** name and role.
 - **The 3 accomplishments:** paste from Move 01's summary.
 - **Recent context:** recent meeting, project, or "none".
@@ -31,6 +31,8 @@ Run verbatim, with track and version substituted:
 > Draft 3 paragraphs. Para 1: [A: warm context, why I'm writing / B: 1 sentence on what the quarter was about]. Para 2: the 3 accomplishments framed around the calls made and what changed, not a list of tasks. Para 3: what's next, no ask. Sign off natural and confident, not soft.
 
 ## Insight as guardrail
+
+**Send it.** The number of people who draft a perfectly good email like this and never hit send is the reason this guide exists. Close the delivery by telling the user to send it today, to the named recipient. A draft that never ships is the failure this move exists to fix.
 
 Read the email out loud before sending. **If it sounds like a press release, rewrite the lines that sound like showing off until they sound like you talking.** Apply this to your own draft — if any sentence reads as chest-beating or "look at me", cut or rewrite before returning.
 

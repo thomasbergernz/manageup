@@ -34,7 +34,7 @@ Map the request to exactly one of the five. If ambiguous, ask which move they wa
 
 Read the matching `references/move-NN-*.md` for that move only. Then:
 
-1. **Collect every bracketed input** the move's prompt lists. Ask in a single grouped prompt — the playbook already enumerates them, so don't ask one question per slot.
+1. **Collect every bracketed input** the move's prompt lists. Ask in a single grouped prompt — the playbook already enumerates them, so don't ask one question per slot. First resolve every slot the track already decides against the table in `assets/tracks.md`; only the rows marked **ask** there are questions for the user.
 2. **Substitute the track** into the prompt before running it. Boss or client phrasing goes in the `[bracketed]` slots.
 3. **Run the move's prompt verbatim** against the user's inputs. The playbook is the contract — do not rewrite the prompts.
 4. **Apply the insight as a hard guardrail** before returning output. Every move has an "Insight" check in its reference file. If the draft fails it, rewrite until it passes.

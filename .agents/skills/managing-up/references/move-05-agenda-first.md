@@ -42,7 +42,7 @@ Run verbatim, with track and meeting type substituted:
 
 ## Insight as guardrail
 
-**Never skip section 4.** If the user's input has no strategic question, push back: "What's one question bigger than this week's work?" Refuse to return a 3-section agenda. Section 4 is what separates a manager from a vendor from a partner.
+**Never skip section 4.** If the user's input has no strategic question, draft one from their context, mark it as a suggestion, and ask: "What's one question bigger than this week's work?" Always return four sections. Section 4 is what separates a manager from a vendor from a partner.
 
 Other checks:
 

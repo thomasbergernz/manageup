@@ -15,7 +15,7 @@ Pick one meeting in the next 7 days that actually matters. Not a standup. Ever.
 
 Ask in one grouped message:
 
-- **Scenario:** A (user runs the meeting), B (user doesn't run it but wants something covered), or C (client call the user is leading).
+- **Scenario:** track-constrained. Boss track — ask A (user runs the meeting) or B (user doesn't run it but wants something covered). Client track — C (client call the user is leading), or B if the client runs the meeting. Never boss + C.
 - **Meeting topic.**
 - **Who's in the room:** names and titles.
 - **What I need:** a decision on X / agreement on Y / a recommendation agreed on Z.
@@ -38,6 +38,8 @@ Run verbatim, with scenario substituted:
 > Draft a 4–6 sentence note that: says the goal in one clear sentence, points to anything sent ahead and what to focus on, says where I think we should land if it's a recommendation, and closes with what I need from them in the meeting. Calm, direct, confident. Not soft, not chest-beating.
 
 ## Insight as guardrail
+
+**Stop waiting for permission to shape a meeting you don't run.** It feels pushy for years, until you realise everyone else is doing it. It isn't rude, it's the job. On scenario B, if the user hedges about sending the note at all, say this — don't soften the note to compensate.
 
 Four checks before returning:
 

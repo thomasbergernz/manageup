@@ -2,6 +2,29 @@
 
 Load this once at the start of any move. Every move has two parallel versions; the track decides recipient, tone, and which bracketed options to substitute.
 
+## Bracket resolution by track
+
+The track decides most bracketed slots. Resolve them from the track — **do not ask the user a
+question the track already answers.** Only the "ask" rows below are real questions.
+
+| Move | Slot | Boss track | Client track |
+|------|------|-----------|--------------|
+| 01 | persona | `senior leader` | `fractional or independent operator` |
+| 02 | recipient | `my boss's boss` | `my client's CEO or the person who decides whether to renew` |
+| 02 | Version A/B | default **A** (warm, not asking) | default **B** (calls made, what changed) |
+| 03 | Scenario A/B/C | **ask**: A (runs it) or B (doesn't run it) | **C** — unless the client runs the meeting, then B |
+| 04 | Situation A/B/C | **ask**: A (ran it or presented) or B (owns what happens next) | **C** |
+| 05 | recipient / meeting | `my boss` / `1:1` | `my client` / `check-in` |
+
+Version A/B in Move 02 is a tone choice the track already implies — the boss tone is A's
+"friendly and informational, not asking for anything", the client tone is B's "calm and
+confident, focused on the calls I made". State the default in one line and let the user
+override it; don't pose it as an open question.
+
+Scenario C in Moves 03 and 04 is client-shaped by definition. Never pair boss track with C,
+and never pair client track with A. If the user's answer contradicts their track, name the
+contradiction and re-confirm the track.
+
 ## Boss track
 
 **Situation:** the user has a direct manager. The implicit rhythm of an org still applies — updates flow upward, the work is supposed to be visible to senior leaders.
