@@ -1,6 +1,7 @@
 ---
 name: managing-up
-description: Runs the Managing Up five-moves playbook: Audit, Send It Up, Note Before the Meeting, Recap, Send the Agenda First. Use this whenever the user wants to update their boss, write a status email, prep for a meeting, recap a meeting, send a 1:1 or client agenda, or asks for help being more visible at work. Triggers on phrases like "manage up", "update my boss", "write a recap", "agenda for my 1:1", "make my work visible", or any request that maps to one of the five moves. Use it even when the user doesn't name a move — if the user describes a work-visibility problem, this likely fixes it. Don't use for general email drafting, performance reviews, or HR-style feedback.
+description: >-
+  Runs the Managing Up five-moves playbook: Audit, Send It Up, Note Before the Meeting, Recap, Send the Agenda First. Use this whenever the user wants to update their boss, write a status email, prep for a meeting, recap a meeting, send a 1:1 or client agenda, or asks for help being more visible at work. Triggers on phrases like "manage up", "update my boss", "write a recap", "agenda for my 1:1", "make my work visible", or any request that maps to one of the five moves. Use it even when the user doesn't name a move — if the user describes a work-visibility problem, this likely fixes it. Don't use for general email drafting, performance reviews, or HR-style feedback.
 ---
 
 # Managing Up
